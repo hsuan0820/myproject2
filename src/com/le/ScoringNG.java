@@ -1,6 +1,6 @@
 package com.le;
 
-public class ScorinrNG {
+public class ScoringNG {
     public static void main(String[] args) {
         String[]names={"Jack","Benny","Karen"};
         int[] english={70,90,60};
