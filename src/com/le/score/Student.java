@@ -1,4 +1,4 @@
-package com.le;
+package com.le.score;
 
 public class Student {
     String name;

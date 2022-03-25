@@ -1,6 +1,6 @@
-package com.le;
+package com.le.score;
 
-public class GraduateStudent extends Student{
+public class GraduateStudent extends Student {
     int thesis;
     public GraduateStudent(
             String name,
