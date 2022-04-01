@@ -1,11 +1,11 @@
 package com.le.sales;
 
-public class Customers {
+public class Customer {
     String id;
     int amount;
     float off=0.1f;
 
-    public Customers(String id,int amount){
+    public Customer(String id, int amount){
         this.id=id;
         this.amount=amount;
     }

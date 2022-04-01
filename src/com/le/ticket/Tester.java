@@ -35,7 +35,7 @@ public class Tester {
                 destination = Station.KAOHSIUNG_STATION;
                 break;
         }
-        //
+
         System.out.println("Which kind of ticket? 1)Normal Ticket 2)Student ticket 3)Elder ticket");
         choice = Integer.parseInt(scanner.next());
         Ticket ticket = null;
@@ -44,12 +44,11 @@ public class Tester {
                 ticket = new Ticket(start, destination);
                 break;
             case 2:
-                ticket = new Ticket(start, destination);
+                ticket = new StudentTicket(start, destination);
                 break;
         }
-        if (){
-            
-        }
+        ticket.print();
+
 
     }
 }

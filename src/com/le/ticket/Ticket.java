@@ -13,9 +13,29 @@ public class Ticket {
         this.start=start;
         this.destination=destination;
 
-    }
 
-    public void print(){
-        //taipeistation=105
+    if (start == Station.TAIPEI_STATION) {
+        if (destination == Station.TAICHUNG_STATION) {
+            price = 600;
+        } else {
+            price = 1500;
+        }
+    } else if (start == Station.TAICHUNG_STATION) {
+        if (destination == Station.TAIPEI_STATION) {
+            price = 600;
+        } else {
+            price = 900;
+        }
+    } else if (start == Station.KAOHSIUNG_STATION) {
+        if (destination == Station.TAICHUNG_STATION) {
+            price = 900;
+        } else {
+            price = 1500;
+        }
+    }
+}
+
+    public void print() {
+        System.out.println(start.name + "\t" + destination.name + "\t" + price );
     }
 }
