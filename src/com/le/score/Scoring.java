@@ -6,7 +6,7 @@ public class Scoring {
         //Jack.name="Jack";
         Student hank=new Student("hank",40,60);
         GraduateStudent jane=new GraduateStudent("Jane",80,62,90);
-        jane.name="Jane";
+        //jane.name="Jane";
 
         jack.print();
         hank.print();
